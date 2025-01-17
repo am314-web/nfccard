@@ -8,11 +8,11 @@ const Sidebar = () => {
       <ul className="grid gap-6">
         <li className="flex items-center space-x-3 cursor-pointer hover:bg-gray-300 p-2 rounded-lg ">
           <Home className="w-5 h-5" />
-          <span>Dashboard</span>
+          <span>Profile</span>
         </li>
         <li className="flex items-center space-x-3 cursor-pointer hover:bg-gray-300 p-2 rounded-lg">
           <CreditCard className="w-5 h-5" />
-          <span>Transactions</span>
+          <span>Attendence</span>
         </li>
         <li className="flex items-center space-x-3 cursor-pointer hover:bg-gray-300 p-2 rounded-lg">
           <Wallet className="w-5 h-5" />
@@ -20,11 +20,11 @@ const Sidebar = () => {
         </li>
         <li className="flex items-center space-x-3 cursor-pointer hover:bg-gray-300 p-2 rounded-lg">
           <Users className="w-5 h-5" />
-          <span>Contacts</span>
+          <span>Announcement</span>
         </li>
         <li className="flex items-center space-x-3 cursor-pointer hover:bg-gray-300 p-2 rounded-lg">
           <Wallet className="w-5 h-5" />
-          <span>E-Wallet Center</span>
+          <span>transactions</span>
         </li>
         <li className="flex items-center space-x-3 cursor-pointer hover:bg-gray-300 p-2 rounded-lg">
           <BarChart className="w-5 h-5" />
