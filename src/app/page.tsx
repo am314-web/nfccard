@@ -94,19 +94,19 @@ const InvoiceTable = () => (
     <thead className="bg-gray-100">
       <tr>
         <th className="p-3 font-semibold text-gray-600">Date & Time</th>
-        <th className="p-3 font-semibold text-gray-600">Invoice Number</th>
-        <th className="p-3 font-semibold text-gray-600">Recipient</th>
+        <th className="p-3 font-semibold text-gray-600">Subject Code</th>
+        <th className="p-3 font-semibold text-gray-600">Faculty</th>
         <th className="p-3 font-semibold text-gray-600">Status</th>
-        <th className="p-3 font-semibold text-gray-600">Amount</th>
+        <th className="p-3 font-semibold text-gray-600">Cummulative Status</th>
       </tr>
     </thead>
     <tbody className="divide-y">
       <tr>
         <td className="p-3 text-gray-700">20 Dec 2020</td>
-        <td className="p-3 text-gray-700">#12345</td>
-        <td className="p-3 text-gray-700">John Doe</td>
-        <td className="p-3 text-gray-700">Completed</td>
-        <td className="p-3 text-gray-700">$2,500.00</td>
+        <td className="p-3 text-gray-700">#3150001</td>
+        <td className="p-3 text-gray-700">Sharmma Vinayak</td>
+        <td className="p-3 text-gray-700">Present</td>
+        <td className="p-3 text-gray-700">75P</td>
       </tr>
       {/* Repeat other rows as necessary */}
     </tbody>

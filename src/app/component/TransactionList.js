@@ -11,7 +11,7 @@ const TransactionList = () => {
 
   return (
     <div className="mt-4">
-      <h3 className="text-lg font-bold mb-2">Transactions</h3>
+      <h3 className="text-lg font-bold mb-2">Attendence</h3>
       <ul>
         {transactions.map((transaction) => (
           <li key={transaction.id} className="bg-white p-4 rounded-lg shadow mb-2">
